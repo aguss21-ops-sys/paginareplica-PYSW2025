@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: rgb(247, 137, 21);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 190px;
+  }
+  
+  header img {
+    height: 60px;
+    margin-bottom: 0%;
+    margin-top: -1%;
+  }
+ 
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 12%;
+  }
+  
+  
+  .topbar nav a {
+    color: #f7941d;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .topbar nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .topbar nav span {
+    color: gray;
+  }
+  
+  .search-box {
+    margin-right: 12% !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 15px; /* más redondeado */
+    padding: 1px 19px !important; /* menos padding */
+    background-color: white;
+    width: 290px; /* más angosto */
+    height: 29px; /* más bajo */
+  }
+  .bus{
+    margin-top: 8% !important;
+    font-size: 16px !important;
+  }
+  .search-box i {
+    color: gray;
+    font-size: 12px; /* lupa más chica */
+    margin-right: 6px;
+    flex-shrink: 0;
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 13px; /* texto más chico */
+    background: transparent;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #ff7b00;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .header .search-container {
+    display: flex;
+    align-items: center;
+  }
+  .header .search-container input {
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+  }
+  .header .search-container button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  .header .search-container button img {
+    width: 16px;
+    height: 16px;
+  }
+  .breadcrumbs {
+    padding: 10px 16px;
+    background: #f9f9f9;
+    color: #ff7b00;
+    font-weight: bold;
+  }
+  .breadcrumbs a {
+    color: #ff7b00;
+    text-decoration: none;
+  }
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0 16px;
+    margin-left: 12%;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  input{
+    width: 96%;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: 30;
+    font-size: 12px;
+  }
+
+  textarea{
+    width: 96%;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+  }
+.tit{
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 50;
+  font-size: 32px; /* o algo similar según lo que quieras */
+  text-transform: uppercase; /* si querés que esté TODO EN MAYÚSCULAS */
+}
+
+
+select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+  }
+  input:focus, textarea:focus, select:focus {
+    border-color: #ff7b00;
+    outline: none;
+  }
+  .file-upload {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    color: #ff7b00;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .submit-btn {
+    background: #ff7b00;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .submit-btn:hover {
+    background: #cc6200;
+  }
+  .file-upload {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff; /* Blanco siempre */
+    margin-bottom: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .file-upload:hover {
+    background-color: #ffffff; /* No cambia */
+  }
+  
+  .orange-text {
+    color: #f7941d; /* Naranja */
+    font-weight: bold;
+  }
+  
+  .gray-text {
+    color: #999999; /* Gris */
+  }
+  
+  .submit-button {
+    background-color: #f7941d; /* Fondo naranja */
+    color: #ffffff; /* Letra blanca */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #f7941d; /* No cambia al pasar */
+  }
+
+  .campo-fecha {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+/* Opcional para que el icono de calendario sea clickeable */
+.campo-fecha::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
