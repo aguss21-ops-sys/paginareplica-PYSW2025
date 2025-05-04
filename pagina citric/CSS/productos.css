@@ -1,0 +1,510 @@
+body {
+  background-color:white; /* Color de fondo para visualizar la transparencia */
+  margin: 0;
+  height: 100vh; /* Asegúrate de que el cuerpo ocupe toda la altura de la ventana */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+ margin-top: 8px;
+ margin-bottom: 8px;
+ margin-left: 40px;
+ ;
+}
+.footer-legal{
+  color: white !important;
+}
+
+.footer{
+color: white;
+background-color: black; 
+margin-bottom: 45px;  
+}
+.footer p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: -1%;
+  padding-bottom: -1%;
+
+}
+
+.blends{
+  font-size: 47px;
+  margin-left: 4%; 
+  margin-top: 18%;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.textoblen{
+  font-size: 22px;
+}
+.enlace1{
+  font-size: 20px;
+}
+.exprimido{
+  font-size: 47px;
+}
+.texto-exprimido{
+  font-size: 22px;
+}
+.enlace2{
+  font-size: 20px;
+}
+.limonada{
+  font-size: 47px;
+}
+.textolimonada{
+  font-size: 22px;
+}
+.enlace3{
+  font-size: 20px;
+}
+.estacion{
+  font-size: 47px;
+}
+.textoestacion1{
+  font-size: 22px;
+   font-family: 'Georgia', serif !important;
+}
+.enlace4{
+  font-size: 20px;
+}
+.varietales{
+  font-size: 47px;
+}
+.textovarietales{
+  font-size: 22px;
+}
+.enlace5{
+  font-size: 20px;
+}
+
+.hero-section {
+background-image: url('/images/2hoja.png'); /* reemplazá con tu ruta */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 70vh;
+position: relative;
+margin-bottom: 50px;
+}
+
+footer {
+  width: 100%;
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif; /* Fuente similar a la imagen */
+}
+
+footer img {
+  height: 60px;
+  margin-left: 20%;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-right {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 60px;
+}
+
+/* Estilo para los párrafos de contacto */
+.footer-contact {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Última línea, que no debe cortarse nunca */
+.footer-legal {
+  margin-top: 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  color: #ccc; /* Color gris clarito como en la imagen */
+}
+
+/* Íconos de redes sociales */
+.social-icon {
+  background-color: #f7941d;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #ffa733;
+}
+
+
+   
+    .contenedor {
+      display: flex;
+      flex-direction: column;
+      gap: 0; /* esto controla el espacio entre los divs */
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif; 
+      font-style: italic; 
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+  .bloque p{
+      font-family: 'Merriweather', serif;
+  }
+
+  .carousel-indicators {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      flex-direction: column;
+      transform: translateY(-50%);
+      margin: 0;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      margin: 5px 0;
+      background-color: white;
+  }
+  
+  .navbar-nav .nav-link {
+      margin-right: 7.5rem;
+      font-weight: 500;
+      font-family: 'Georgia', serif;
+      font-size: 22px;
+  }
+  .navbar-brand{
+    margin-left: 3%;
+  }
+  
+  .card-img-overlay {
+      background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar-nav .nav-link{
+      margin-left: 1.5rem;
+  }
+  
+  .offcanvas-body .navbar-nav .nav-link{
+      font-family: inherit;
+      margin-left: 8.5rem;
+  }
+  
+  .navbar-toggler{
+      border: none;
+      color: transparent;
+  }
+  
+  .navbar-toggler .navbar-toggler-icon{
+      color: white;
+  }
+  
+  .offcanvas-body, .offcanvas-header{
+        background: #1e1d22;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .offcanvas .nav-link:hover {
+    color: orange !important;
+  }
+  
+  
+  .offcanvas-start {
+    width: 100vw !important;
+    max-width: 100vw;
+  }
+  
+  .offcanvas .nav-item {
+    margin-right: 1.5rem;
+  }
+  
+  .offcanvas .nav-item {
+      margin-top: -3px;
+      margin-bottom: -3px;
+    }
+
+    .agus{
+      width: 114%; 
+      height: 122%; 
+      margin-left: -10%;
+    }
+    
+  @media(max-width: 768px){
+      .card-img{
+        height: 250px;
+      }
+
+      .agus{
+        width: 112%;
+        height: 92%;
+      
+      }
+      .la{
+        width: 113% !important;
+        margin-left: -8% !important;
+        height: 92%;
+      }
+      .limo{
+        width: 117% !important;
+        margin-left: -9% !important;
+        height: 92%;
+      }
+      .texto-limonada{
+        margin-top: -45% !important;
+      }
+      .texto-estacion1{
+        font-family: 'Georgia', serif !important;
+      }
+
+      .frutos{
+        width: 117% !important;
+        margin-left: -9%;
+        height: 579% !important;
+        margin-top: -100% !important;
+      
+      }
+      .var{
+        margin-left: 5%;
+        width: 118% !important;
+      }
+      footer {
+        flex-direction: column;
+        align-items: center; /* centramos todo */
+        text-align: center;
+      }
+    
+      .footer-left, .footer-center, .footer-right {
+        flex: unset;
+        width: 100%;
+        padding: 10px 20px;
+      }
+    
+      .footer-right {
+        justify-content: center;
+        padding-right: 0;
+        flex-wrap: wrap;
+      }
+    
+      .footer-legal {
+        font-size: 11px;
+        white-space: normal; /* ahora permitimos que corte en responsive */
+        word-break: break-word; /* si una palabra es muy larga, que corte */
+        max-width: 90%; /* no más del 90% del ancho */
+        margin: 0 auto;
+      }
+    
+      footer img {
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+      }
+
+    }
+  
+    @media (min-width: 992px) {
+      .offcanvas-backdrop,
+      .offcanvas {
+        display: none !important;
+      }
+    }
+
+    @media(max-width: 860px){
+      .texto-limonada{
+          margin-top: -250px;
+          margin-bottom: 290px;
+        
+      }
+      .texto-estacion1{
+          margin-top: 172px;
+          font-family:'Georgia', serif !important; 
+          margin-top: 15% !important;
+       
+      }
+      .textoestacion{
+        font-size: 22px !important;
+       font-family:  'Georgia', serif !important;
+    }
+      .texto-blends{
+          margin-top: -22px;
+      }
+      .texto-varietales{
+          margin-bottom: -122px;
+          
+      }
+      .texto-exprimido{
+          margin-top: 17%;
+
+      }
+      .limonada{
+          margin-top: -104px;
+      }
+      .varietales{
+          margin-bottom:60px
+      }
+      .estacion{
+          margin-bottom: 23px;
+          margin-top: 23% !important;
+      }
+      .hero-container{
+          width: 100%;
+          height: 95%;
+  
+      }
+      footer {
+        flex-direction: column;
+        align-items: center; /* centramos todo */
+        text-align: center;
+      }
+    
+      .footer-left, .footer-center, .footer-right {
+        flex: unset;
+        width: 100%;
+        padding: 10px 20px;
+      }
+    
+      .footer-right {
+        justify-content: center;
+        padding-right: 0;
+        flex-wrap: wrap;
+      }
+    
+      .footer-legal {
+        font-size: 11px;
+        white-space: normal; /* ahora permitimos que corte en responsive */
+        word-break: break-word; /* si una palabra es muy larga, que corte */
+        max-width: 90%; /* no más del 90% del ancho */
+        margin: 0 auto;
+        
+      }
+    
+      footer img {
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+      }
+      
+  }
+
+
+
+
+  .search-box {
+    margin-right: -19% !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(46, 45, 50);
+    border-radius: 19px; /* más redondeado */
+    padding: 1px 19px !important; /* menos padding */
+    background-color: rgb(46, 45, 50);
+    width: 330px; /* más angosto */
+    height: 40px; /* más bajo */
+    margin-top: 5%;
+    margin-left: 12%;
+    
+  }
+  .bus{
+    margin-top: -2% !important;
+    font-size: 12px !important;
+    font-family: 'Roboto', 'Arial', sans-serif;
+  }
+  .search-box i {
+    color: gray;
+    font-size: 9px;
+    margin-right: 9px;
+    flex-shrink: 0;
+    order: 2; /* Ícono al final */
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 13px;
+    background: transparent;
+    order: 1; /* Campo de búsqueda al inicio */
+  }
+  
+  
+  
+  .right {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 44%;
+    margin-top: 5%;
+  }
+  .icon {
+  
+    color: orange; /* Ícono blanco */
+   
+    width: 36px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: -18px;
+  }
+  
+  /* Quitar hover */
+  .icon:hover {
+    
+    color: white;
+  }
+  .offcanvas-title{
+    margin-left: 38%;
+    font-family: 'Georgia', serif;
+    font-size: 23px;
+  }
+  .offcanvas-body .navbar-nav .nav-link{
+    font-family: 'Georgia', serif;
+    margin-left: 4.5rem;
+    font-size: 17px;
+  }
+  .offcanvas-title:hover{
+    color: #f7941d;
+    }
+    .navbar-brand{
+      margin-left: 3%;
+    }
+ 

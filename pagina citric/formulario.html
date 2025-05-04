@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/formulario.css"> <!-- Enlaza el archivo CSS -->
+    <title>Document</title>
+</head>
+<body>
+    
+
+  <header>
+    <img src="images/logo c.png" alt="Citric logo">
+    <div>
+      <a  style="color: white; text-decoration: none;font-size: 14px;" href="https://citric.zendesk.com/hc/es-419/requests/new">ENVIAR UNA SOLICITUD</a>  
+    </div>
+  </header>
+  
+  <div class="topbar">
+    <nav>
+      <!--Enlazado a pagina original-->
+      <a href="https://citric.zendesk.com/hc/es-419">Citric</a> &gt; <span>Enviar una solicitud</span>
+    </nav>
+    <div class="search-box">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Buscar" class="bus">
+    </div>
+  </div>
+      
+  <div class="container">
+    <h1 class="tit">ENVIAR UNA SOLICITUD</h1>  
+    <form>
+      <label  class="prroblema" for="problema" style="font-size: 12px;">Elija su problema a continuación</label>
+      <select id="problema" name="problema">
+        <option>Reclamo</option>
+      </select>
+      
+      <label for="email" style="font-size: 12px;">Correo electrónico</label>
+      <input type="email" id="email" name="email">
+
+      <label for="asunto" style="font-size: 12px;">Asunto</label>
+      <input type="text" id="asunto" name="asunto">
+
+      <label for="descripcion" style="font-size: 12px;">Descripción del reclamo</label>
+      <textarea id="descripcion" name="descripcion" rows="3" style="resize: none;"></textarea>
+      <label for="motivo" style="font-size: 12px;">Motivo del reclamo</label>
+      <select id="motivo-reclamo" name="motivo-reclamo">
+        <option value="">-</option>
+        <option>Color</option>
+        <option>Envase</option>
+        <option>Hinchado</option>
+        <option>Olor</option>
+        <option>Otros</option>
+        <option>Pulpa/Sabor</option>
+        <option>Tapa</option>
+        <option>Hongo</option>
+      </select> <!-- CIERRO BIEN -->
+      
+      <label for="producto" style="font-size: 12px;">Producto</label>
+      <select id="producto" name="producto">
+        <option value="">-</option>
+        <option value="citric-exprimido">Citric 100% Exprimido</option>
+        <option value="citric-limonadas">Citric Limonadas</option>
+        <option value="blends-nrf">Blends N-R-F</option>
+        <option value="blends-nz">Blends N-Z</option>
+      </select> <!-- CIERRO BIEN -->
+
+      <label for="sabor" style="font-size: 12px;">Sabor de producto</label>
+<select id="sabor" name="sabor">
+  <option value="naranja">Naranja</option>
+  <option value="pomelo-menta-jengibre">Pomelo con menta y jengibre</option>
+  <option value="limon">Limón</option>
+  <option value="limonada-menta">Limonada con menta</option>
+  <option value="manzana">Manzana</option>
+  
+  <option value="naranja-cosecha-temprana">Naranja cosecha temprana</option>
+  <option value="naranja-durazno">Naranja durazno</option>
+  <option value="naranja-frutilla">Naranja frutilla</option>
+  <option value="naranja-mango">Naranja mango</option>
+  <option value="naranja-sin-pulpa">Naranja sin pulpa</option>
+  <option value="naranja-valencia-tardia">Naranja valencia tardía</option>
+  <option value="naranja-remolacha-frutilla">Naranja-remolacha-frutilla</option>
+  <option value="naranja-zanahoria">Naranja-zanahoria</option>
+  <option value="pomelo">Pomelo</option>
+  <option value="salustiana">Salustiana</option>
+  <option value="sanguinea">Sanguínea</option>
+</select>
+
+<label for="tipo-envase" style="font-size: 12px;">Tipo de envase</label>
+<select id="tipo-envase" name="tipo-envase">
+  <option value=""></option>
+  <option value="tetra-pack">Tetra Pack</option>
+  <option value="bidon">Bidón</option>
+</select>
+
+<label for="capacidad-envase" style="font-size: 12px;">Capacidad de envase</label>
+<select id="capacidad-envase" name="capacidad-envase">
+  <option value="">-</option>
+  <option value="200">200</option>
+  <option value="250">250</option>
+  <option value="500">500</option>
+  <option value="750">750</option>
+  <option value="1">1</option>
+  <option value="1.5">1.5</option>
+  <option value="3">3</option>
+  <option value="5">5</option>
+</select>
+
+
+      
+      <label for="lote" style="font-size: 12px;">Datos del envase - Lote</label>
+      <input type="number" id="lote" name="lote">
+          
+      <label for="tanque" style="font-size: 12px;">Datos del envase - Tanque (opcional)</label>
+      <input type="number" id="tanque" name="tanque">
+
+  
+      <label for="hora" style="font-size: 12px;">Datos del envase - Hora</label>
+      <input type="text" id="hora" name="hora" placeholder=>
+
+      <label for="fecha-lote" style="font-size: 12px;">Datos del envase - Lote</label>
+      <input type="text" id="fecha-lote" name="fecha-lote" placeholder="" class="campo-fecha"
+          onclick="this.type='date'; this.showPicker();">
+
+      <label for="envases" style="font-size: 12px;">Cantidad de - envases (opcional)</label>
+      <input type="text" id="envases" name="envases">
+
+      <label for="lugar-compra" style="font-size: 12px;">Lugar de compra</label>
+<select id="lugar-compra" name="lugar-compra">
+  <option value="">-</option>
+  <option value="almacen">Almacén</option>
+  <option value="carrefour">Carrefour</option>
+  <option value="changomas">Changomas</option>
+  <option value="coto">Coto</option>
+  <option value="delivery">Delivery</option>
+  <option value="dia">Día</option>
+  <option value="disco">Disco</option>
+  <option value="jumbo">Jumbo</option>
+  <option value="otro-super">Otro (super)</option>
+  <option value="super-barrio">Super de barrio</option>
+  <option value="vea">Vea</option>
+  <option value="walmart">Walmart</option>
+  <option value="kiosco">Kiosco</option>
+  <option value="makro">Makro</option>
+  <option value="fabrica">Fábrica</option>
+  <option value="estacion-servicio">Estación de servicio</option>
+  <option value="la-anonima">La Anónima</option>
+  <option value="libertad">Libertad</option>
+  <option value="tadicor">Tadicor</option>
+  <option value="la-gallega">La Gallega</option>
+  <option value="vital">Vital</option>
+  <option value="maxiconsumo">Maxiconsumo</option>
+</select>
+
+<label for="tipo-cliente" style="font-size: 12px;">Tipo de cliente (opcional)</label>
+<select id="tipo-cliente" name="tipo-cliente">
+  <option value="">-</option>
+  <option value="consumidor-final">Consumidor final</option>
+  <option value="distribuidor">Distribuidor</option>
+</select>
+
+
+
+      <label for="ciudad" style="font-size: 12px;">Ciudad en que se encuentra</label>
+      <input type="text" id="ciudad" name="ciudad">
+
+
+      <label for="provincia" style="font-size: 12px;">Provincia</label>
+      <input type="text" id="provvincia" name="provincia">
+
+      <label for="pais" style="font-size: 12px;">País</label>
+<select id="pais" name="pais">
+  <option value="">-</option>
+  <option value="argentina">Argentina</option>
+  <option value="chile">Chile</option>
+  <option value="uruguay">Uruguay</option>
+  <option value="china">China</option>
+  <option value="ecuador">Ecuador</option>
+</select>
+
+<label for="archivo" style="font-size: 12px;">Archivos adjuntos (opcional)</label>
+<div class="file-upload" onclick="document.getElementById('archivo').click();">
+  <span class="orange-text">Agregue un archivo</span> <span class="gray-text">o suelte archivos aquí</span>
+</div>
+<input type="file" id="archivo" name="archivo" multiple style="display: none;">
+
+<button type="submit" class="submit-button">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
